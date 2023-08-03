@@ -131,18 +131,16 @@ Footer Section CSS
   cursor: pointer;
 }
 .fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
 .fa-linkedin:hover,
-.fa-twitch:hover {
+.fa-github:hover {
   color: #008000;
 }
 .fab {
-  color: #000000;
+  color: white;
 }
 /* footer styling */
 #footer {
-  background-color: #808080;
+  background-color: black;
   text-align: center;
 }
 
