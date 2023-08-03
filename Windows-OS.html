@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Windows Operating System</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/31149d48b0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbarScroll"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container">
+        <a class="navbar-brand">Raigo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Windows-OS.html"
+                    >Windows Operating System</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Linux-BSD-OS.html"
+                    >Linux/BSD Operating Systems</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="C-Networks.html"
+                    >Computer Networking</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="basic_know.html"
+                    >Basic knowledge of IT</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--winOS section-->
+    <section id="windowsOS">
+      <div class="container mt-4 pt-4">
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/windows.jpg" class="imageAboutWindows" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Windows Install & Setup</h3>
+            <p>
+              Win 10 installation, installation of basic software. Enabling RDP
+              connection and basic knowledge of shell or CMD commands. Local
+              user management.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img
+              src="images/customer_window.jpg"
+              class="imageAboutWindows"
+              alt=""
+            />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Managing Active Directory Local Users and Groups</h3>
+            <p>Management of local accounts and policies through RDP.</p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/win_server.jpg" class="imageAboutWindows" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Windows Servers Install & Setup</h3>
+            <p>
+              Installed and initialized Server 2019 on the machine. Server 2019
+              configured as a router, the functionalities - NAT and routing are
+              configured. Configured Remote Access for the router. Configured
+              port forwarding. Enabled remote administration of servers and
+              clients. Directory service installation. New Forest. Increased
+              domain functionality. Domain merging. Installing a DHCP server
+              using Powershell. Configured the DHCP server according to the
+              company's needs. Turn on domain trash (ADRB). Created domain
+              objects using a graphical interface (ADUC). Added domain users to
+              the corresponding OUs and groups. Recovered a domain from the
+              Recycle Bin object (ADAC). Create a partition on the disk, specify
+              the file system, format, and add a letter (powershell) to the
+              disk. File server roles. Sharing folders from a Windows server.
+              Assignment of rights. Configuring a secondary domain controller.
+              Initial setup on an IIS Web server. Create a domain record on a
+              DNS server. Creating an intranet on a web server.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- load javascript after loading all html content -->
+    <script src="portfolio.js"></script>
+  </body>
+</html>

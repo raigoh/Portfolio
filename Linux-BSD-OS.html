@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Linux/BSD OP. Systems</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/31149d48b0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbarScroll"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container">
+        <a class="navbar-brand">Raigo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="index.html#portfolio" >Portfolio</a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Windows-OS.html">Windows Operating System</a></li>
+                <li><a class="dropdown-item" href="Linux-BSD-OS.html">Linux/BSD Operating Systems</a></li>
+                <li><a class="dropdown-item" href="C-Networks.html">Computer Networking</a></li>
+                <li><a class="dropdown-item" href="basic_know.html">Basic knowledge of IT</a></li>
+               </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--linuxOS section-->
+    <section id="linuxOS">
+      <div class="container mt-4 pt-4">
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/Ubuntu.jpg" class="imageAboutLinux" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Ubuntu 20.4 Install & Setup</h3>
+            <p>
+              Ubuntu installation and initial setup. Establishing an SSH
+              connection. Backuppc. The activities took place mainly along
+              command lines. Software installation.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/Debian.jpg" class="imageAboutLinux" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>Debian 10 CLI Install & Setup</h3>
+            <p>
+              Debian 9 CLI install, upgrade to 10 CLI. Establishing an SSH
+              connection. Backuppc. Software installation eg: spotify.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <img src="images/Centos.jpg" class="imageAboutLinux" alt="" />
+          </div>
+
+          <div class="col-lg-6">
+            <h3>CentOS Linux 8 GUI Install & Setup</h3>
+            <p>
+              CentOS 8 installation and initial setup. Establishing an SSH
+              connection. Backuppc. Software installation. Installing Zabbix,
+              designed to monitor client / own computers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- load javascript after loading all html content -->
+    <script src="portfolio.js"></script>
+  </body>
+</html>
