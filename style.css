@@ -121,6 +121,14 @@ Navbar Scroll Styling
   background-color: black;
 }
 
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  background-color: black;
+}
+
 /*-----------------
 Footer Section CSS
 -------------------*/
