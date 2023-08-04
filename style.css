@@ -286,6 +286,36 @@ Basic Knowledge of IT
   width: 100%;
 }
 
+/* Background img */
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.basic {
+  /* The image used */
+  background-image: url("images/simple.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Style the header and text */
+.basic_title {
+  color: white;
+}
+
+.basic_text {
+  color: white;
+}
+
 /*-----------------
 CV Download button
 -------------------*/
