@@ -5,9 +5,13 @@ Home Page
 /* hero background image */
 .bgimage {
   height: 100vh;
-  background: url("images/tech.jpg");
+  background: url("images/mina.jpg");
   background-size: cover;
   position: relative;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 100% !important;
 }
 
 /* text css above hero image*/
@@ -24,6 +28,14 @@ Home Page
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+@media (max-width: 480px) {
+  #bgimage {
+    background-image: url("images/mina.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 /*------------
