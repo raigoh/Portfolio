@@ -30,13 +30,6 @@ Home Page
   color: white;
 }
 
-@media (max-width: 480px) {
-  #bgimage {
-    background-image: url("images/mina.jpg");
-    width: 100%;
-  }
-}
-
 /*------------
 About Section
 --------------*/
