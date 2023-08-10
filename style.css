@@ -13,10 +13,17 @@ Home Page
   background-attachment: fixed;
 }
 
-@media (min-width: 1024px) {
+/* Media query for screens with a maximum width of 768px (typical tablet screens) */
+@media (max-width: 768px) {
   .bgimage {
-    width: 100%;
-    height: auto;
+    max-height: 300px; /* Adjust the height for smaller screens */
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (typical mobile screens) */
+@media (max-width: 480px) {
+  .bgimage {
+    max-height: 200px; /* Adjust the height further for mobile screens */
   }
 }
 
