@@ -23,7 +23,12 @@ Home Page
 /* Media query for screens with a maximum width of 480px */
 @media (max-width: 480px) {
   .bgimage {
-    height: 100vh; /* Further reduce height for mobile screens */
+    height: 100vh; /* Allow the height to adjust based on content */
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
