@@ -13,17 +13,18 @@ Home Page
   background-attachment: fixed;
 }
 
-/* Media query for screens with a maximum width of 768px (typical tablet screens) */
+/* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .bgimage {
-    max-height: 600px; /* Adjust the height for smaller screens */
+    background-attachment: scroll; /* Change attachment to scroll on smaller screens */
+    height: 60vh; /* Adjust the height for better visibility on smaller screens */
   }
 }
 
-/* Media query for screens with a maximum width of 480px (typical mobile screens) */
+/* Media query for screens with a maximum width of 480px */
 @media (max-width: 480px) {
   .bgimage {
-    max-height: 400px; /* Adjust the height further for mobile screens */
+    height: 40vh; /* Further reduce height for mobile screens */
   }
 }
 
