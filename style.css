@@ -16,14 +16,14 @@ Home Page
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .bgimage {
-    height: 60vh; /* Adjust the height for better visibility on smaller screens */
+    height: 60vh;
   }
 }
 
 /* Media query for screens with a maximum width of 480px */
-@media (max-width: 390px) {
+@media (max-width: 480px) {
   .bgimage {
-    height: 100vh; /* Allow the height to adjust based on content */
+    height: 100vh;
     background-size: cover;
     position: relative;
     background-position: center top;
@@ -395,7 +395,7 @@ CV Download button
   border-color: transparent;
   border-top-color: inherit;
   animation: downloadArrow 1s linear infinite;
-  animation-play-state: paused;
+  animation-play-state: active;
 }
 
 .buttonDownload:hover:before {
