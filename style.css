@@ -16,7 +16,6 @@ Home Page
 /* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .bgimage {
-    background-attachment: scroll; /* Change attachment to scroll on smaller screens */
     height: 60vh; /* Adjust the height for better visibility on smaller screens */
   }
 }
@@ -24,7 +23,7 @@ Home Page
 /* Media query for screens with a maximum width of 480px */
 @media (max-width: 480px) {
   .bgimage {
-    height: 60vh; /* Further reduce height for mobile screens */
+    height: 80vh; /* Further reduce height for mobile screens */
   }
 }
 
