@@ -33,8 +33,7 @@ Home Page
 @media (max-width: 480px) {
   #bgimage {
     background-image: url("images/mina.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 100%;
   }
 }
 
