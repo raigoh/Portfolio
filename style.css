@@ -11,7 +11,13 @@ Home Page
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  max-width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .bgimage {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* text css above hero image*/
